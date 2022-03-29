@@ -7,12 +7,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { updateButtonType, updateElementStyle, updateHeadingTag, updateLinkValue } from '../store/actions';
 
 const headingFontSize = {
-    H1: '46px',
-    H2: '36px',
-    H3: '26px',
-    H4: '22px',
-    H5: '20px',
-    H6: '16px',
+    H1: '2em',
+    H2: '1.5em',
+    H3: '1.17em',
+    H4: '1em',
+    H5: '.83em',
+    H6: '.67em',
 }
 
 const initialStyle = {

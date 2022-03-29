@@ -61,6 +61,7 @@ export const Heading = ({ dragDropRef, item, style, opacity, handleDelete }) => 
     // Seperate margin properties and add them to parent element
     const parentElementStyle = {
         opacity: opacity,
+        fontSize: '50px',
         marginTop: elementStyle?.marginTop,
         marginBottom: elementStyle?.marginBottom,
         marginLeft: elementStyle?.marginLeft,

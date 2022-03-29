@@ -1,7 +1,7 @@
 export const initialStyles = {
     heading: {
-        fontSize: '46px',
-        fontWeight: 700,
+        fontSize: '2em',
+        fontWeight: 900,
         whiteSpace: 'pre-wrap',
         resize: 'none',
         overflow: 'hidden',
@@ -20,7 +20,8 @@ export const initialStyles = {
         paddingBottom: 0,
     },
     paragraph: {
-        fontSize: '16px',
+        fontSize: '18px',
+        lineHeight: '30px',
         fontWeight: 400,
         whiteSpace: 'pre-wrap',
         resize: 'none',

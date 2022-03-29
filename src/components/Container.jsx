@@ -101,7 +101,7 @@ export const Container = () => {
                         />
                     ))}
 
-                    {isOver && <div>Drop Here!</div>}
+                    {isOver && <div>Drop Elements Here</div>}
                 </div>
             </div>
 

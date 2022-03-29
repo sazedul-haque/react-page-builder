@@ -55,7 +55,7 @@ export const StyleComponent = ({ componentRef }) => {
             id: dropElementState?.activeElement?.id,
             style: {
                 ...dropElementState?.activeElement?.style,
-                [String(event.target.name)]: isNaN(Number(event.target.value)) ? event.target.value : Number(event.target.value)
+                [String(event.target.name)]: isNaN(Number(event.target.value)) ? event.target.value : event.target.value ? Number(event.target.value) : 'auto'
             }
         }));
     }
